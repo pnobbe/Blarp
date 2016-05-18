@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Arcade';
+    src: url('../assets/arcade.ttf');
+}
+
+h4 {
+    font-family: 'Arcade';
+    text-align: center;
+    color: #00ef81;
+    font-size: 30px;
+    text-shadow: 2px 2px #00a051;
+}
+
+.modal-dialog {
+    margin: 0px auto;
+}
+
+.form-control:focus {
+    box-shadow: 0 1px 1px #00ef81 inset, 0 0 20px #00ef81;
+
+}
+
+.form-control {
+    box-shadow: 5px 5px #00a051;
+}
+
+.btn-primary {
+    font-family: 'Arcade';
+    font-size: 20px;
+    background-color: #00ef81;
+    box-shadow: 3px 3px #00a051;
+}
+
+.btn-primary:active {
+    background-color: #00ff8c !important;
+}
+
+.btn-primary:focus {
+    background-color: #00ff8c !important;
+}
+
+.btn-primary:hover {
+    background-color: #00ff87;
+    box-shadow: 3px 3px #00c36b;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    box-shadow: 0px 0px 0px;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
