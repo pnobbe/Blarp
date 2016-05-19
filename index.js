@@ -25,14 +25,12 @@ io.on('connection', function (socket) {                   //socket.io on connect
     function communicateJoin(status) {                  //function for handling socket io connections
         if (status == 'connected') {                            //status just checks if you want the function to handle a join or a leave
             usercount += 1;                             //if a user joins add 1 to the usercount
-            console.dir(userhashmap[socket.id]);
             console.log(userhashmap[socket.id][4] + " has " + status + ", users: " + usercount);
 
         } else if (status == 'disconnected') {
             if (typeof userhashmap[socket.id] != 'undefined') {
                 usercount -= 1;
                 console.log(userhashmap[socket.id][4] + " has " + status + ", users: " + usercount);
-                console.log('delete');
                 delete userhashmap[socket.id];              //get rid of the info of the logged in socket when they leave
             }
             else {

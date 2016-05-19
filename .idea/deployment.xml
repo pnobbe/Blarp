@@ -2,14 +2,14 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="Aladdin">
+      <paths name="Aladdinwensen.nl">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="Pokemart">
+      <paths name="pokemart.nl">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
